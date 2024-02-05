@@ -12,6 +12,6 @@ import java.util.List;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Pizze extends Menu{
+public class Pizze extends ElementiMenu {
     private List<Topping> toppings;
 }
